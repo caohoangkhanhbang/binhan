@@ -1,0 +1,281 @@
+.chantrang {
+    background: #000000;
+    position: relative;
+    padding: 50px 50px;
+    overflow: hidden;
+}
+
+.trang-tri {
+    position: absolute;
+    width: 1053px;
+    height: 390px;
+    bottom: 0;
+    right: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.gradient-a,
+.gradient-b {
+    opacity: 0.3;
+    background: linear-gradient(45deg, #0100ff, #00e1ff);
+    background-size: cover;
+    width: 50%;
+    height: 40%;
+    position: absolute;
+    filter: blur(70px);
+    transform: rotate(-21deg);
+}
+
+.chantrang-item {
+    margin: 50px 0;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background: linear-gradient(to right, transparent, rgb(55 52 52), transparent);
+    margin: 24px 0;
+}
+
+.gradient-a {
+    top: 346px;
+    right: -309px;
+    height: 46%;
+}
+
+.gradient-b {
+    left: -45px;
+    bottom: -45px;
+}
+
+.chu-chan-trang {
+    margin: 5px 0;
+}
+
+.tieu-de-chan-trang {
+    color: #adaebd;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.noi-dung-chan-trang {
+    font-weight: 200;
+}
+
+.card-item {
+    width: 396px;
+    height: 642px;
+    margin: 0 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    flex-shrink: 0;
+}
+
+.card-container {
+    overflow: scroll;
+    height: 700px;
+    width: 100vw;
+    margin: 100px auto;
+    position: relative;
+}
+
+.card-item-content {
+    position: absolute;
+    bottom: 50px;
+    margin: 0 50px;
+    color: white;
+    z-index: 2;
+}
+
+.icon-muiten {
+    color: red;
+}
+
+.card-direction {
+    display: flex;
+    align-items: center;
+}
+
+.card-title {
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.card-background-blur {
+    background: linear-gradient(180deg, #0000002b, #000000b8);
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    bottom: 0;
+    z-index: 1;
+}
+
+
+.card-container .card-item:nth-child(odd) {
+    clip-path: polygon(0 0, 100% 5%, 100% 95%, 0 100%);
+}
+
+.card-container .card-item:nth-child(even) {
+    clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 95%);
+}
+
+/*ẩn thanh cuộn */
+.no-scrollbar {
+
+    /* Cho Chrome, Safari, Edge mới */
+    &::-webkit-scrollbar {
+        display: none;
+    }
+
+    /* Cho Firefox */
+    scrollbar-width: none;
+
+    /* Cho IE và Edge cũ (tùy chọn) */
+    -ms-overflow-style: none;
+}
+
+
+.nangluc-item {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+        height: 580px;
+}
+
+.nangluc-item-img {
+    height: 310px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.nangluc-item-container {
+    padding: 20px;
+}
+
+.nangluc-title {
+    margin-bottom: 10px;
+}
+
+.nangluc-content {
+    font-weight: 300;
+}
+
+.nangluc-direction {
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.nangluc-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.nangluc-container {
+    background: #faf4ec;
+    padding: 50px 0;
+}
+
+.title {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* dùng chung */
+.chu-tieude {
+    font-size: 30px;
+}
+
+.chu-noidung {
+    font-size: 16px;
+}
+
+.chu-lon {
+    font-size: 35px;
+}
+
+.chu-trang {
+    color: white;
+}
+
+.d-flex-d {
+    display: flex;
+    flex-direction: column;
+}
+
+.d-flex-n {
+    display: flex;
+}
+
+.style-a {
+    text-decoration: none;
+}
+
+.flex-footer {
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.button {
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background: linear-gradient(45deg, #0004ff, #00ffd7);
+}
+
+.center-d {
+    display: flex;
+    align-items: center;
+}
+
+.margin-left {
+    margin-left: 20px;
+}
+
+.text-truncate-2,
+.text-truncate-4 {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.text-truncate-2 {
+    -webkit-line-clamp: 2;
+}
+
+.chu-den {
+    color: black;
+}

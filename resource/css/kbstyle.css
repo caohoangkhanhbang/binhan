@@ -95,8 +95,8 @@
 
 
 .company-name-items {
-    display: flex;
     flex-direction: column;
+    display: flex;
 }
 
 
