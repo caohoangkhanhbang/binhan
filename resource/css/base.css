@@ -26,7 +26,7 @@ html {
 }
 
 .grid.wide {
-    max-width: 90vw;
+    max-width: 95vw;
     margin: 0 auto;
 }
 
@@ -171,6 +171,7 @@ html {
     .col {
         padding-left: 8px;
         padding-right: 8px;
+        padding: 8px;
     }
 
     .m-0 {
@@ -487,6 +488,8 @@ html {
     .col {
         padding-left: 12px;
         padding-right: 12px;
+        padding: 12px;
+
     }
 
     .row.sm-gutter .col {
